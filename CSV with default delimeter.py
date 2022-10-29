@@ -2,7 +2,7 @@
 
 import csv
 # opening a csv file with read mode
-with open ("Python/CSV Reader Function/csv-without-spaces.csv", 'r') as f:
+with open ("Python/CSV Reader Function/CSV/csv-without-spaces.csv", 'r') as f:
     reader = csv.reader(f)
 
     # print each line row by row
