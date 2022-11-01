@@ -6,7 +6,7 @@ import csv
 csv.register_dialect('myDialect', delimiter=',', skipinitialspace=True)
 
 # Opening file in read mode
-f=open("CSVquotes.csv", 'r')
+f=open("Python/CSV Reader Function/CSV/quotes.csv", 'r')
 reader = csv.reader(f, dialect="myDialect", quoting=csv.QUOTE_ALL)
 
 # print each line row by row
